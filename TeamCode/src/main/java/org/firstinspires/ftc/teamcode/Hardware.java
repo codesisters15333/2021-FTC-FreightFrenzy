@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.Servo;
  * Created by ashley.peake on 8/30/2018.
  */
 
-public class HardwareRoverRuckus<crServo> {
+public class Hardware <crServo> {
 
     //Wheels
     public DcMotor leftFront;
@@ -32,14 +32,6 @@ public class HardwareRoverRuckus<crServo> {
     public CRServo clawA;
     public CRServo clawB;
 
-    //----------------------------------METHODS------------------------------------------------------
-
-    //Constructor
-/*   public HardwareRoverRuckus() {
-
-   }
-
- */
     //---------------------------------INIT--ROBOT---------------------------------------------------
    /*  This method allows us to initialize the motors and sensors only once.
        It is used in every other program after "Init" is pressed.

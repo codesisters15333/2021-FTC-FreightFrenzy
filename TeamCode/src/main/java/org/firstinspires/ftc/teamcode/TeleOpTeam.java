@@ -2,19 +2,6 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.HardwareMap;
-import com.qualcomm.robotcore.robot.Robot;
-import com.qualcomm.robotcore.util.ElapsedTime;
-
-import org.firstinspires.ftc.robotcore.external.Func;
-import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
-import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
-import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
-import org.firstinspires.ftc.robotcore.external.navigation.Position;
-import org.firstinspires.ftc.robotcore.external.navigation.Velocity;
-
-import java.util.Locale;
 
 /**
  * Created by ashley.peake on 8/30/2018.
@@ -24,10 +11,10 @@ import java.util.Locale;
 
 
 
-@TeleOp (name= "TeleOpRoverRuckus", group= "Linear Opmode")
-public class TeleOpRoverRuckus extends LinearOpMode {
+@TeleOp (name= "TeleOpTeam", group= "Linear Opmode")
+public class TeleOpTeam extends LinearOpMode {
 
-    HardwareRoverRuckus Rover = new HardwareRoverRuckus();
+    Hardware Rover = new Hardware();
 
     // ElapsedTime runtime = new ElapsedTime();
 
